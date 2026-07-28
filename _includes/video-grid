@@ -1,0 +1,74 @@
+{% assign videos = site.data.videos %}
+
+{% if include.category and include.category != "" %}
+  {% assign videos = videos | where: "category", include.category %}
+{% endif %}
+
+<div class="video-projects">
+
+  {% for video in videos %}
+    <article class="video-project">
+
+      <div class="video-project-media">
+
+        {% if video.type == "embed" %}
+
+          <!-- External video: PBS, Vimeo, etc. -->
+          <iframe
+            src="{{ video.embed_url }}"
+            title="{{ video.title | escape }}"
+            allow="autoplay; encrypted-media; picture-in-picture"
+            allowfullscreen
+            loading="lazy"
+          ></iframe>
+
+        {% else %}
+
+          <!-- Local video from videoassets -->
+          <video
+            controls
+            playsinline
+            preload="metadata"
+            {% if video.poster %}
+              poster="{{ video.poster | relative_url }}"
+            {% endif %}
+          >
+            <source
+              src="{{ video.src | relative_url }}"
+              type="video/mp4"
+            >
+            Your browser does not support the video element.
+          </video>
+
+        {% endif %}
+
+      </div>
+
+      <div class="video-project-meta">
+        <div>
+          <p class="video-project-number">
+            {{ forloop.index | prepend: "0" | slice: -2, 2 }}
+          </p>
+
+          <h2>{{ video.title }}</h2>
+        </div>
+
+        <div class="video-project-info">
+          {% if video.role %}
+            <p class="video-project-role">
+              {{ video.role }}
+            </p>
+          {% endif %}
+
+          {% if video.description %}
+            <p class="video-project-description">
+              {{ video.description }}
+            </p>
+          {% endif %}
+        </div>
+      </div>
+
+    </article>
+  {% endfor %}
+
+</div>
