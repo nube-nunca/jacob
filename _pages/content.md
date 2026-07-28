@@ -8,17 +8,17 @@ title: Social Media Content
 
   {% include instagramPlayer.html
     url="https://www.instagram.com/p/DHHWaJ3JjvN/?hl=en"
-    captioned="true"
+    caption="your own explanation of what this is"
   %}
 
   {% include instagramPlayer.html
     url="https://www.instagram.com/p/DG9R_PaJmab/?hl=en"
-    captioned="true"
+    caption="your own explanation of what this is"
   %}
 
   {% include instagramPlayer.html
     url="https://www.instagram.com/p/DHuLpthpGfW/?hl=en"
-    captioned="true"
+    caption="your own explanation of what this is"
   %}
 
 </div>
