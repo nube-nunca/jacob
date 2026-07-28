@@ -327,7 +327,6 @@ footer {
   letter-spacing: -0.02em;
 }
 
-.contact-service-content p,
 .contact-info-copy {
   margin: 0;
 
@@ -339,6 +338,31 @@ footer {
   opacity: 0.7;
 }
 
+/* Service list */
+
+.contact-service-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.contact-service-list li {
+  margin: 0.32rem 0;
+
+  font-family: "Barlow", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 300;
+  line-height: 1.45;
+
+  opacity: 0.7;
+
+  transition: opacity 220ms ease;
+}
+
+.contact-info-block:hover .contact-service-list li {
+  opacity: 0.92;
+}
 
 /* Subtle panel interaction */
 
