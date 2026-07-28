@@ -1,10 +1,15 @@
-<div class="instagram-embed">
-  <blockquote
-    class="instagram-media"
-    data-instgrm-permalink="{{ include.url }}"
-    data-instgrm-version="14"
-    {% if include.captioned != "false" %}
-      data-instgrm-captioned
-    {% endif %}
-  ></blockquote>
+<div class="instagram-embed-card">
+  <div class="instagram-embed">
+    <blockquote
+      class="instagram-media"
+      data-instgrm-permalink="{{ include.url }}"
+      data-instgrm-version="14">
+    </blockquote>
+  </div>
+
+  {% if include.caption %}
+    <p class="instagram-caption">
+      {{ include.caption }}
+    </p>
+  {% endif %}
 </div>
