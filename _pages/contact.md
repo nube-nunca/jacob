@@ -25,11 +25,10 @@ title: Contact
       </p>
 
       <p>
-        Iowa · New York<br>
+        Based in Iowa City · Upstate New York<br>
         Available worldwide
       </p>
 
-      <a href="#gform">Start an inquiry ↓</a>
     </div>
 
   </div>
