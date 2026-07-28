@@ -7,7 +7,7 @@ title: Social Media Content
 <div class="instagram-grid">
 
   {% include instagramPlayer.html
-    url="hhttps://www.instagram.com/p/DHHWaJ3JjvN/?hl=en"
+    url="https://www.instagram.com/p/DHHWaJ3JjvN/?hl=en"
     captioned="true"
   %}
 
