@@ -4,6 +4,8 @@ permalink: /video/
 title: Videography
 ---
 
+{% include video-grid.html %}
+
 <!-- Content -->
 <div class="container mx-auto px-4 space-y-12 py-10">
 
