@@ -1,7 +1,7 @@
 ---
 layout: photography
-title: Photography
 permalink: /photo/
+title: Photography
 ---
 
 {% include gallery-grid.html %}
