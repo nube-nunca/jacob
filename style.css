@@ -116,6 +116,140 @@ img[src] {
 }
 
 
+/* VIDEO PORTFOLIO */
+/* One large video per row */
+
+.video-projects {
+  width: 100%;
+}
+
+.video-project {
+  width: 100%;
+  padding-bottom: clamp(5rem, 10vw, 10rem);
+}
+
+.video-project + .video-project {
+  padding-top: clamp(4rem, 8vw, 8rem);
+  border-top: 1px solid rgba(127, 127, 127, 0.28);
+}
+
+
+/* Large responsive video frame */
+
+.video-project-media {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #000;
+}
+
+.video-project-media iframe,
+.video-project-media video {
+  position: absolute;
+  inset: 0;
+
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+
+  max-width: none;
+  border: 0;
+  object-fit: cover;
+}
+
+
+/* Project caption and credits */
+
+.video-project-meta {
+  padding-top: 24px;
+
+  display: grid;
+  grid-template-columns: minmax(240px, 1fr) minmax(280px, 1fr);
+  gap: clamp(2rem, 6vw, 7rem);
+  align-items: start;
+}
+
+.video-project-number {
+  margin: 0 0 10px;
+
+  font-family: "Barlow", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+
+  opacity: 0.42;
+}
+
+.video-project h2 {
+  margin: 0;
+
+  font-family: "Barlow", sans-serif;
+  font-size: clamp(2rem, 4vw, 4rem);
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.035em;
+}
+
+.video-project-info {
+  max-width: 560px;
+  justify-self: end;
+}
+
+.video-project-role {
+  margin: 0 0 10px;
+
+  font-family: "Barlow", sans-serif;
+  font-size: 0.72rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  opacity: 0.55;
+}
+
+.video-project-description {
+  margin: 0;
+
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.6;
+
+  opacity: 0.72;
+}
+
+
+/* Video portfolio responsive */
+
+@media (max-width: 800px) {
+  .video-project-meta {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .video-project-info {
+    justify-self: start;
+  }
+}
+
+@media (max-width: 600px) {
+  .video-project-media {
+    aspect-ratio: 16 / 10;
+  }
+
+  .video-project {
+    padding-bottom: 5rem;
+  }
+
+  .video-project + .video-project {
+    padding-top: 4rem;
+  }
+}
+
+
+
 /* loading instagram contents */
 /* Instagram portfolio grid */
 
