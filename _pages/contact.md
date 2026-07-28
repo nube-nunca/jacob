@@ -3,142 +3,166 @@ layout: default
 permalink: /contact/
 title: Contact
 ---
-  <!-- Content -->
-   <div class="container mx-auto">
-    <div class="grid grid-cols-2 gap-16">
-      <section class="col-span-2 md:col-span-1">
-        <div class="max-w-screen-md">
-          <h1 class="text-3xl pt-10 pb-8 font-barlow font-light"><b>let's connect</b></h1>        
 
-<form
-  class="space-y-8"
-  name="gform"
-  id="gform"
-  method="POST"
-  action="https://docs.google.com/forms/d/e/1FAIpQLSdZ7-C23kYCopL0N3l88v7k3ixYfp9H8GO4cQNvMw8jfrn9zg/formResponse"
-  target="hidden_iframe"
-  onsubmit="submitted=true;">
+<section class="contact-page">
 
-  <label for="firstname" class="block mb-2 text-x1 font-barlow font-bold text-gray-900 dark:text-gray-300">
-    Your Name
-  </label>
+  <div class="contact-intro">
+    <p class="contact-kicker">Get in touch</p>
 
-  <div class="flex gap-4">
-    <input
-      type="text"
-      id="firstname"
-      name="entry.625646384"
-      class="w-1/2 p-2.5 shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 dark:bg-neutral-900 dark:border-neutral-800 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-      placeholder="First name"
-      required />
+    <h1>
+      Let’s make<br>
+      something memorable.
+    </h1>
 
-    <input
-      type="text"
-      id="lastname"
-      name="entry.1744308571"
-      class="w-1/2 p-2.5 shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 dark:bg-neutral-900 dark:border-neutral-800 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-      placeholder="Last name"
-      required />
-  </div>
+    <div class="contact-intro-meta">
+      <p>
+        Available for photography, film,
+        editorial, and commissioned content.
+      </p>
 
-  <div>
-    <label for="email" class="block mb-2 font-barlow font-bold text-gray-900 dark:text-gray-300">
-      Your email
-    </label>
-
-    <input
-      type="email"
-      id="email"
-      name="entry.362250930"
-      class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-neutral-900 dark:border-neutral-800 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-      placeholder="youremail@gmail.com"
-      required />
-  </div>
-
-  <div>
-    <label for="subject" class="block mb-2 font-barlow font-bold text-gray-900 dark:text-gray-300">
-      What are you inquiring about?
-    </label>
-
-    <input
-      type="text"
-      id="subject"
-      name="entry.579498837"
-      class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-neutral-900 dark:border-neutral-800 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-      placeholder="e.g., wedding, engagement, portraits, etc."
-      required />
-  </div>
-
-  <div>
-    <label for="eventdate" class="block mb-2 font-barlow font-bold text-gray-900 dark:text-gray-300">
-      Event Date
-    </label>
-
-    <input
-      type="text"
-      id="eventdate"
-      name="entry.1245624429"
-      class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-neutral-900 dark:border-neutral-800 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-      placeholder="(Optional)" />
-  </div>
-
-  <div>
-    <label for="location" class="block mb-2 font-barlow font-bold text-gray-900 dark:text-gray-300">
-      Venue / Location
-    </label>
-
-    <input
-      type="text"
-      id="location"
-      name="entry.18748500"
-      class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-neutral-900 dark:border-neutral-800 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-      placeholder="(Optional)" />
-  </div>
-
-  <div class="sm:col-span-2">
-    <label for="message" class="block mb-2 font-barlow font-bold text-gray-900 dark:text-gray-400">
-      Your message
-    </label>
-
-    <textarea
-      id="message"
-      name="entry.709681169"
-      rows="6"
-      class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-neutral-900 dark:border-neutral-800 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-      placeholder="Do you want to add more details?"
-      required></textarea>
-  </div>
-
-  <button
-    type="submit"
-    class="rounded-lg sm:inline-flex w-full cursor-pointer justify-center rounded-md border border-transparent bg-gray-100 px-4 py-2 text-base font-medium text-gray-900 shadow-sm hover:bg-gray-900 hover:text-white focus:bg-gray-900 focus:text-white focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 sm:ml-3 sm:w-auto">
-    <b>Send now</b>
-  </button>
-
-  <div id="formSubmissionText" class="hidden form-submission-text">
-    <p>Please allow up to 2 Business Days for a reply. Thank you very much!</p>
-  </div>
-
-</form>
- 
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script> <!-- stopping Google Form redirection: original URL: assets/js/jquery.min.js-->
-<script type="text/javascript">var submitted=false;</script>
-<script type="text/javascript">
-$('#gform').on('submit', function(e) {
-  $('#gform *').fadeOut(2000);
-  $('#gform').prepend('Sent! Please allow up to 2 Business Days for a reply. Thank you very much!');
-  });
-</script>         
-        </div>
-      </section>
-      <div class="col-span-2 md:col-span-1 flex relative">
-        <div
-          class="bg-white dark:bg-neutral-900 p-5 pb-20 m-6 md:m-12 shadow-lg border border-gray-100 dark:border-neutral-800  hover:rotate-0 transition duration-500 rotate-6 relative">
-          <img
-            src="https://images.unsplash.com/reserve/yZfr4jmxQyuaE132MWZm_stagnes.jpg?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2052&q=80"
-            alt="" class="flex flex-col aspect-square w-full object-cover h-auto max-h-full" />
-        </div>
-      </div>
+      <p>
+        Based in Iowa City &amp; Upstate New York.<br>
+        Available worldwide.
+      </p>
     </div>
   </div>
+
+
+  <div class="contact-layout">
+
+    <section class="contact-form-column">
+
+      <form
+        class="contact-form"
+        name="gform"
+        id="gform"
+        method="POST"
+        action="https://docs.google.com/forms/d/e/1FAIpQLSdZ7-C23kYCopL0N3l88v7k3ixYfp9H8GO4cQNvMw8jfrn9zg/formResponse"
+        target="hidden_iframe"
+        onsubmit="submitted=true;">
+
+        <div class="contact-name-row">
+          <div class="contact-field">
+            <label for="firstname">First name</label>
+            <input
+              type="text"
+              id="firstname"
+              name="entry.625646384"
+              placeholder="Jacob"
+              required>
+          </div>
+
+          <div class="contact-field">
+            <label for="lastname">Last name</label>
+            <input
+              type="text"
+              id="lastname"
+              name="entry.1744308571"
+              placeholder="Charles"
+              required>
+          </div>
+        </div>
+
+        <div class="contact-field">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="entry.362250930"
+            placeholder="you@example.com"
+            required>
+        </div>
+
+        <div class="contact-field">
+          <label for="subject">Project type</label>
+          <input
+            type="text"
+            id="subject"
+            name="entry.579498837"
+            placeholder="Documentary, portrait, campaign, event..."
+            required>
+        </div>
+
+        <div class="contact-form-split">
+          <div class="contact-field">
+            <label for="eventdate">Project date</label>
+            <input
+              type="text"
+              id="eventdate"
+              name="entry.1245624429"
+              placeholder="Optional">
+          </div>
+
+          <div class="contact-field">
+            <label for="location">Location</label>
+            <input
+              type="text"
+              id="location"
+              name="entry.18748500"
+              placeholder="Optional">
+          </div>
+        </div>
+
+        <div class="contact-field">
+          <label for="message">Tell me about the project</label>
+          <textarea
+            id="message"
+            name="entry.709681169"
+            rows="6"
+            placeholder="Scope, timeline, deliverables, and anything else worth knowing."
+            required></textarea>
+        </div>
+
+        <button type="submit" class="contact-submit">
+          <span>Send inquiry</span>
+          <span aria-hidden="true">↗</span>
+        </button>
+
+        <div id="formSubmissionText" class="hidden form-submission-text">
+          <p>Please allow up to 2 business days for a reply. Thank you.</p>
+        </div>
+
+      </form>
+
+      <iframe
+        name="hidden_iframe"
+        id="hidden_iframe"
+        style="display:none;"
+        onload="if(submitted) {}">
+      </iframe>
+
+    </section>
+
+
+    <aside class="contact-visual">
+
+      <div class="contact-image-frame">
+        <img
+          src="{{ '/photoassets/featured/contact-cover.jpg' | relative_url }}"
+          alt="Selected photography by Jacob Charles">
+      </div>
+
+      <div class="contact-visual-caption">
+        <span>Iowa City · Upstate New York</span>
+        <span>Available worldwide</span>
+      </div>
+
+    </aside>
+
+  </div>
+
+</section>
+
+
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+<script>var submitted = false;</script>
+
+<script>
+  $('#gform').on('submit', function () {
+    $('#gform').fadeOut(500, function () {
+      $(this)
+        .html('<p class="contact-success">Sent. Please allow up to 2 business days for a reply.</p>')
+        .fadeIn(500);
+    });
+  });
+</script>
