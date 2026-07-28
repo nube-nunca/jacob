@@ -80,7 +80,7 @@ title: Social Media Content
 <section class="content-project">
   <div class="content-project-header">
     <div>
-      <p class="content-project-number">02</p>
+      <p class="content-project-number">03</p>
       <h2>Campus Stories</h2>
     </div>
 
