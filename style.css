@@ -33,6 +33,7 @@ footer {
 /* CONTACT PAGE */
 
 .contact-page {
+  padding-top: clamp(4rem, 7vw, 7rem);
   padding-bottom: clamp(5rem, 10vw, 10rem);
 }
 
@@ -46,6 +47,25 @@ footer {
   text-transform: uppercase;
 
   opacity: 0.5;
+}
+
+.contact-form-heading {
+  margin-bottom: clamp(3rem, 5vw, 5rem);
+}
+
+.contact-form-heading .contact-kicker {
+  margin: 0 0 1rem;
+}
+
+.contact-form-heading h1 {
+  max-width: 700px;
+  margin: 0;
+
+  font-family: "Barlow", sans-serif;
+  font-size: clamp(2.8rem, 5vw, 5.5rem);
+  font-weight: 300;
+  line-height: 0.95;
+  letter-spacing: -0.04em;
 }
 
 /* Contact layout */
@@ -235,20 +255,6 @@ footer {
 
   opacity: 0.45;
 }
-
-
-/* Contact responsive */
-
-@media (max-width: 900px) {
-  .contact-intro-meta {
-    grid-template-columns: 1fr;
-    gap: 1.25rem;
-  }
-
-  .contact-intro-meta p:last-child {
-    text-align: left;
-  }
-
   .contact-layout {
     grid-template-columns: 1fr;
   }
@@ -267,10 +273,6 @@ footer {
   .contact-name-row,
   .contact-form-split {
     grid-template-columns: 1fr;
-  }
-
-  .contact-intro h1 {
-    line-height: 0.96;
   }
 
   .contact-visual-caption {
