@@ -1,82 +1,129 @@
 ---
 layout: default
 permalink: /
-title: Jacob Charles Photography
+title: Jacob Charles
 ---
-  <!-- Content -->
-  <div class="container mx-auto">
-  <div class="w-4/5 text-left">
-    <span class="font-barlow font-light tracking-tight text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-[1.35] block">
-    <br>
-    Jacob Charles is a <i>photographer</i> & <i>videographer</i> based in Upstate New York.
-    <br><br>
-  </span>
-</div>
-    <section class="text-neutral-700">
-      <div class="container w-full">
-        <div class="flex flex-wrap w-full">
-          <div class="flex w-full md:w-1/2 flex-wrap">
-            <div class="w-full md:w-1/2 p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1675789203977-70070dae0799?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                  data-fancybox="gallery">
-                  <img alt="a person standing in front of a rock formation"
-                    class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1675789203977-70070dae0799?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
-                </a>
-              </div>
-            </div>
-            <div class="w-full md:w-1/2 p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1674985594089-eab270e843c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1963&q=80"
-                  data-fancybox="gallery">
-                  <img alt="a cat laying on top of a sidewalk next to the ocean"
-                    class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1674985594089-eab270e843c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1963&q=80" />
-                </a>
-              </div>
-            </div>
-            <div class="w-full p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1667093060577-02f07eb01585?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1750&q=80"
-                  data-fancybox="gallery">
-                  <img alt="a man standing on a beach next to the ocean"
-                    class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1667093060577-02f07eb01585?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1750&q=80" />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="flex w-full md:w-1/2 flex-wrap">
-            <div class="w-full p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1676978647680-0e60a584c5fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
-                  data-fancybox="gallery">
-                  <img alt="a snow covered mountain with trees on the side"
-                    class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1676978647680-0e60a584c5fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" />
-                </a>
-              </div>
-            </div>
-          <div class="flex w-full md:w-1/2 flex-wrap p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1675910568522-c187fd74d5b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
-                  data-fancybox="gallery">
-                  <img alt="a branch of a plant floating in a body of water"
-                    class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1675910568522-c187fd74d5b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" />
-                </a>
-              </div>
-            </div>
-          <div class="flex w-full md:w-1/2 flex-wrap p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1675910568522-c187fd74d5b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
-                  data-fancybox="gallery">
-                  <img alt="a branch of a plant floating in a body of water"
-                    class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1675910568522-c187fd74d5b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" />
-                </a>
-              </div>
-            </div>
-        </div>
-      </div>
+
+<section class="home-hero">
+
+  <p class="home-kicker">
+    Photographer · Filmmaker · Content Creator
+  </p>
+
+  <h1>
+    Creating stories<br>
+    people remember.
+  </h1>
+
+  <div class="home-hero-details">
+    <p>
+      Photography · Film · Social Content
+    </p>
+
+    <p>
+      Based in Iowa City &amp; Upstate New York.<br>
+      Available worldwide.
+    </p>
+  </div>
+
+</section>
+
+
+<section class="home-reel">
+
+  <div class="home-reel-header">
+    <div>
+      <p class="home-section-number">01</p>
+      <h2>Selected Reel</h2>
+    </div>
+
+    <p>
+      A short selection of documentary, commercial,
+      and social-first moving-image work.
+    </p>
+  </div>
+
+  <div class="home-reel-frame">
+    <video
+      autoplay
+      muted
+      loop
+      playsinline
+      preload="metadata"
+      poster="{{ '/photoassets/featured/home-reel-poster.jpg' | relative_url }}"
+    >
+      <source
+        src="{{ '/photoassets/featured/home-reel-loop.mp4' | relative_url }}"
+        type="video/mp4"
+      >
+    </video>
+
+    <div class="home-reel-label">
+      <span>Selected Reel</span>
+      <span>00:08 Loop</span>
+    </div>
+  </div>
+
+</section>
+
+
+<section class="home-work">
+
+  <a href="{{ '/photo/' | relative_url }}" class="home-work-item">
+    <p class="home-section-number">02</p>
+
+    <div class="home-work-title">
+      <h2>Photo</h2>
+      <span aria-hidden="true">↗</span>
+    </div>
+
+    <p>
+      Portraiture, documentary photography,
+      events, and visual storytelling.
+    </p>
+  </a>
+
+
+  <a href="{{ '/video/' | relative_url }}" class="home-work-item">
+    <p class="home-section-number">03</p>
+
+    <div class="home-work-title">
+      <h2>Video</h2>
+      <span aria-hidden="true">↗</span>
+    </div>
+
+    <p>
+      Documentary, music video,
+      narrative, and commercial work.
+    </p>
+  </a>
+
+
+  <a href="{{ '/content/' | relative_url }}" class="home-work-item">
+    <p class="home-section-number">04</p>
+
+    <div class="home-work-title">
+      <h2>Content</h2>
+      <span aria-hidden="true">↗</span>
+    </div>
+
+    <p>
+      Photography, short-form video,
+      interviews, and university campaigns.
+    </p>
+  </a>
+
+</section>
+
+
+<section class="home-contact">
+
+  <p class="home-kicker">
+    Available for commissions and collaborations
+  </p>
+
+  <a href="{{ '/contact/' | relative_url }}">
+    Let’s make something memorable.
+  </a>
+
+</section>
