@@ -99,17 +99,24 @@ img[src] {
 
 
 /* loading instagram contents */
+/* Instagram portfolio grid */
+
 .instagram-grid {
-  width: min(1200px, calc(100% - 40px));
+  width: min(1500px, calc(100% - 40px));
   margin: 40px auto 80px;
+
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 24px;
+
   align-items: start;
 }
 
 .instagram-embed {
+  width: 100%;
   min-width: 0;
+  overflow: hidden;
+
   display: flex;
   justify-content: center;
 }
@@ -117,10 +124,18 @@ img[src] {
 .instagram-embed .instagram-media {
   width: 100% !important;
   min-width: 0 !important;
+  max-width: 100% !important;
   margin: 0 !important;
 }
 
-@media (max-width: 1000px) {
+/* Instagram이 생성하는 iframe도 칸 너비에 맞춤 */
+.instagram-embed iframe {
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+
+@media (max-width: 1050px) {
   .instagram-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
