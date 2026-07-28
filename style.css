@@ -545,9 +545,11 @@ img[src] {
 
 /* Homepage contact CTA */
 
+/* Homepage contact CTA */
+
 .home-contact {
-  min-height: 65vh;
-  padding: clamp(5rem, 10vw, 10rem) 0;
+  min-height: 52vh;
+  padding: clamp(5rem, 9vw, 8rem) 0;
 
   display: flex;
   flex-direction: column;
@@ -576,11 +578,12 @@ img[src] {
   letter-spacing: -0.05em;
 
   transition:
-    transform 450ms cubic-bezier(0.22, 1, 0.36, 1),
-    letter-spacing 450ms cubic-bezier(0.22, 1, 0.36, 1);
+    transform 600ms cubic-bezier(0.16, 1, 0.3, 1),
+    letter-spacing 600ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .home-contact-arrow {
+  position: relative;
   flex: 0 0 auto;
 
   width: clamp(4.5rem, 9vw, 8rem);
@@ -591,29 +594,67 @@ img[src] {
 
   border: 1px solid currentColor;
   border-radius: 999px;
+  overflow: hidden;
 
   font-size: clamp(1.5rem, 3vw, 3rem);
 
   transition:
-    transform 450ms cubic-bezier(0.22, 1, 0.36, 1),
-    background-color 250ms ease,
-    color 250ms ease;
+    transform 650ms cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 300ms ease;
+}
+
+.home-contact-arrow::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  border-radius: inherit;
+  background: currentColor;
+
+  transform: scale(0);
+  transform-origin: center;
+  transition: transform 550ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.home-contact-arrow::after {
+  content: "↗";
+  position: relative;
+  z-index: 1;
+
+  transition:
+    color 300ms ease,
+    transform 650ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .home-contact-link:hover .home-contact-text {
-  transform: translateX(0.04em);
+  transform: translateX(0.025em);
   letter-spacing: -0.04em;
 }
 
 .home-contact-link:hover .home-contact-arrow {
-  transform: rotate(45deg) scale(1.08);
-  background: #000;
-  color: #fff;
+  transform: rotate(8deg) scale(1.04);
 }
 
-.dark .home-contact-link:hover .home-contact-arrow {
-  background: #fff;
-  color: #000;
+.home-contact-link:hover .home-contact-arrow::before {
+  transform: scale(1);
+}
+
+.home-contact-link:hover .home-contact-arrow::after {
+  color: white;
+  transform: translate(3px, -3px);
+}
+
+.dark .home-contact-link:hover .home-contact-arrow::after {
+  color: black;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-contact-text,
+  .home-contact-arrow,
+  .home-contact-arrow::before,
+  .home-contact-arrow::after {
+    transition: none;
+  }
 }
 
 
