@@ -197,3 +197,136 @@ img[src] {
     grid-template-columns: 1fr;
   }
 }
+
+/* Social media content portfolio */
+
+.content-intro {
+  width: min(900px, 100%);
+  margin: 70px 0 100px;
+}
+
+.content-kicker {
+  margin: 0 0 14px;
+  font-family: "Barlow", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  opacity: 0.55;
+}
+
+.content-intro h1 {
+  margin: 0 0 24px;
+  font-family: "Barlow", sans-serif;
+  font-size: clamp(2.8rem, 7vw, 6.5rem);
+  font-weight: 300;
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+}
+
+.content-description {
+  max-width: 720px;
+  margin: 0;
+  font-family: "Barlow", sans-serif;
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
+  font-weight: 300;
+  line-height: 1.6;
+  opacity: 0.72;
+}
+
+
+/* Individual project section */
+
+.content-project {
+  padding: 60px 0 100px;
+  border-top: 1px solid rgba(127, 127, 127, 0.28);
+}
+
+.content-project-header {
+  display: grid;
+  grid-template-columns: minmax(240px, 1fr) minmax(280px, 1fr);
+  gap: 60px;
+  align-items: end;
+
+  margin-bottom: 38px;
+}
+
+.content-project-number {
+  margin: 0 0 10px;
+  font-family: "Barlow", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  opacity: 0.45;
+}
+
+.content-project h2 {
+  margin: 0;
+  font-family: "Barlow", sans-serif;
+  font-size: clamp(2rem, 4vw, 4rem);
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.035em;
+}
+
+.content-project-description {
+  max-width: 540px;
+  margin: 0;
+  justify-self: end;
+
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.6;
+  opacity: 0.68;
+}
+
+
+/* Instagram grid inside each project */
+
+.content-project .instagram-grid {
+  width: 100%;
+  margin: 0;
+
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  align-items: start;
+}
+
+
+/* Responsive */
+
+@media (max-width: 900px) {
+  .content-intro {
+    margin: 50px 0 75px;
+  }
+
+  .content-project {
+    padding: 45px 0 75px;
+  }
+
+  .content-project-header {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .content-project-description {
+    justify-self: start;
+  }
+
+  .content-project .instagram-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 650px) {
+  .content-intro h1 {
+    line-height: 1;
+  }
+
+  .content-project .instagram-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
