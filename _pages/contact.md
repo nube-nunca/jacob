@@ -108,7 +108,7 @@ title: Contact
           <textarea
             id="message"
             name="entry.709681169"
-            rows="6"
+            rows="3"
             placeholder="Scope, timeline, deliverables, and anything else worth knowing."
             required></textarea>
         </div>
