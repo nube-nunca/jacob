@@ -106,7 +106,7 @@ footer {
 .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 2.4rem;
+  gap: 1.5rem;
 }
 
 .contact-name-row,
@@ -122,7 +122,7 @@ footer {
 }
 
 .contact-field label {
-  margin-bottom: 0.65rem;
+  margin-bottom: 0.35rem;
 
   font-family: "Barlow", sans-serif;
   font-size: 0.68rem;
@@ -136,7 +136,7 @@ footer {
 .contact-field input,
 .contact-field textarea {
   width: 100%;
-  padding: 0.85rem 0 1rem;
+  padding: 0.65rem 0 0.75rem;
 
   color: inherit;
   background: transparent;
@@ -158,7 +158,7 @@ footer {
 
 .contact-field textarea {
   resize: vertical;
-  min-height: 150px;
+  min-height: 110px;
 }
 
 .contact-field input::placeholder,
@@ -178,7 +178,7 @@ footer {
 
 .contact-submit {
   width: 100%;
-  margin-top: 1rem;
+  margin-top: 0.3rem;
   padding: 1.25rem 0;
 
   display: flex;
