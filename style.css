@@ -146,3 +146,7 @@ img[src] {
     grid-template-columns: 1fr;
   }
 }
+header,
+footer {
+  flex-shrink: 0;
+}
