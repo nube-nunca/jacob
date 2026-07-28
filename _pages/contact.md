@@ -57,7 +57,7 @@ title: Contact
 
   <div>
     <label for="subject" class="block mb-2 font-barlow font-bold text-gray-900 dark:text-gray-300">
-      Subject
+      What are you inquiring about?
     </label>
 
     <input
@@ -65,7 +65,7 @@ title: Contact
       id="subject"
       name="entry.579498837"
       class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-neutral-900 dark:border-neutral-800 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-      placeholder="What can I help you with?"
+      placeholder="e.g., wedding, engagement, portraits, etc."
       required />
   </div>
 
@@ -79,7 +79,7 @@ title: Contact
       id="eventdate"
       name="entry.1245624429"
       class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-neutral-900 dark:border-neutral-800 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-      placeholder="" />
+      placeholder="(Optional)" />
   </div>
 
   <div>
@@ -92,7 +92,7 @@ title: Contact
       id="location"
       name="entry.18748500"
       class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-neutral-900 dark:border-neutral-800 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-      placeholder="" />
+      placeholder="(Optional)" />
   </div>
 
   <div class="sm:col-span-2">
