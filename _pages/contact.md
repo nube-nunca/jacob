@@ -140,7 +140,7 @@ title: Contact
           <div class="contact-service-content">
             <h2>Photography</h2>
             <p>
-              Couples & Families · Seniors · Professional Headshots · Events · Real Estate · Commercial · Passport Photos
+              Couples & Families · Senior Portraits · Professional Headshots · Events · Real Estate · Commercial · Passport Photos
             </p>
           </div>
         </div>
