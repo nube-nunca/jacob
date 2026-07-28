@@ -346,22 +346,12 @@ footer {
     transition: background-color .25s ease;
 }
 
-.contact-service-content h2,
-.contact-service-content p,
-.contact-info-copy,
-.contact-service-number{
-    transition:
-        opacity .25s ease,
-        transform .35s cubic-bezier(.22,1,.36,1);
-}
-
 .contact-info-block:hover{
     background:rgba(127,127,127,.05);
 }
 
 .contact-info-block:hover .contact-service-content h2{
     opacity:1;
-    transform:scale(1.015);
 }
 
 .contact-info-block:hover .contact-service-content p,
