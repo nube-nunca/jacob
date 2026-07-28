@@ -1,6 +1,6 @@
 ---
 layout: photography
-permalink: /photo/
+permalink: /
 title: Photography
 ---
   <div class="container mx-auto">
