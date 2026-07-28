@@ -6,7 +6,7 @@ title: Jacob Charles Photography
   <!-- Content -->
   <div class="container mx-auto">
   <div class="w-4/5 text-left">
-    <span class="font-barlow font-normal text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-relaxed block">
+    <span class="font-barlow font-light tracking-tight text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-[1.35] block">
     <br>
     Jacob Charles is a <i>photographer</i> & <i>videographer</i> based in Upstate New York.
     <br><br>
