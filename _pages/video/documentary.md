@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: videography
 permalink: /video/documentary/
 title: Documentary
 video_category: documentary
