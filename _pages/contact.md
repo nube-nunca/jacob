@@ -6,14 +6,15 @@ title: Contact
 
 <section class="contact-page">
 
-  <div class="contact-page-header">
-    <p class="contact-kicker">Inquiries</p>
-  </div>
-
   <div class="contact-layout">
 
     <section class="contact-form-column">
 
+  <div class="contact-form-heading">
+    <p class="contact-kicker">Inquiries</p>
+    <h1>Ready when you are.</h1>
+  </div>
+  
       <form
         class="contact-form"
         name="gform"
