@@ -66,12 +66,12 @@ title: Contact
         </div>
 
         <div class="contact-field">
-          <label for="subject">Project type</label>
+          <label for="subject">What are you inquiring about?</label>
           <input
             type="text"
             id="subject"
             name="entry.579498837"
-            placeholder="Portrait, event, documentary, video, campaign..."
+            placeholder="service types on the right"
             required
           >
         </div>
@@ -84,7 +84,7 @@ title: Contact
               type="text"
               id="eventdate"
               name="entry.1245624429"
-              placeholder="Optional"
+              placeholder="(Optional)"
             >
           </div>
 
@@ -94,7 +94,7 @@ title: Contact
               type="text"
               id="location"
               name="entry.18748500"
-              placeholder="Optional"
+              placeholder="(Optional)"
               autocomplete="address-level2"
             >
           </div>
@@ -102,11 +102,11 @@ title: Contact
         </div>
 
         <div class="contact-field">
-          <label for="message">Tell me about the project</label>
+          <label for="message">Do you want to add more details?</label>
           <textarea
             id="message"
             name="entry.709681169"
-            rows="4"
+            rows="3"
             placeholder="Scope, timeline, deliverables, and anything else worth knowing."
             required
           ></textarea>
