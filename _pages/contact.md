@@ -112,10 +112,7 @@ title: Contact
           ></textarea>
         </div>
 
-        <button type="submit" class="contact-submit">
-          <span>Send inquiry</span>
-          <span aria-hidden="true">↗</span>
-        </button>
+        <button type="submit" class="home-contact"> <span class="home-contact-text">Send inquiry</span> <span class="home-contact-arrow"></span> </button>
 
       </form>
 
@@ -210,7 +207,7 @@ title: Contact
         .html(
           '<div class="contact-success">' +
             '<p class="contact-success-heading">Inquiry sent.</p>' +
-            '<p>Please allow up to 2 business days for a reply. Thank you.</p>' +
+            '<p>Sent! I'll get back you soon. Please allow up to 2 business days for a reply.</p>' +
           '</div>'
         )
         .fadeIn(450);
