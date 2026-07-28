@@ -6,26 +6,34 @@ title: Contact
 
 <section class="contact-page">
 
-  <div class="contact-intro">
-    <p class="contact-kicker">Get in touch</p>
+<section class="contact-intro contact-intro-compact">
+  <div class="contact-intro-grid">
 
-    <h1>
-      Let’s make<br>
-      something memorable.
-    </h1>
+    <div>
+      <p class="contact-kicker">Contact</p>
 
-    <div class="contact-intro-meta">
-      <p>
-        Available for photography, film,
-        editorial, and commissioned content.
-      </p>
-
-      <p>
-        Based in Iowa City &amp; Upstate New York.<br>
-        Available worldwide.
-      </p>
+      <h1>
+        What do you<br>
+        have in mind?
+      </h1>
     </div>
+
+    <div class="contact-intro-aside">
+      <p>
+        Photography · Film · Editorial<br>
+        Commissioned Content
+      </p>
+
+      <p>
+        Iowa City · Upstate New York<br>
+        Available worldwide
+      </p>
+
+      <a href="#gform">Start an inquiry ↓</a>
+    </div>
+
   </div>
+</section>
 
 
   <div class="contact-layout">
