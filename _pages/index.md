@@ -13,10 +13,9 @@ title: Jacob Charles
     loop
     playsinline
     preload="metadata"
-    poster="{{ '/photoassets/featured/home-hero-poster.jpg' | relative_url }}"
   >
     <source
-      src="{{ '/photoassets/featured/home-hero-loop.mp4' | relative_url }}"
+      src="{{ '/dist/assets/featured.mp4' | relative_url }}"
       type="video/mp4"
     >
   </video>
