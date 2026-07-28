@@ -137,36 +137,51 @@ title: Contact
         <div class="contact-service-group">
           <span class="contact-service-number">01</span>
 
-          <div class="contact-service-content">
-            <h2>Photography</h2>
-            <p>
-              Couples & Families · Senior Portraits · Professional Headshots · Events · Real Estate · Commercial · Passport Photos
-            </p>
-          </div>
+ <div class="contact-service-content">
+  <h2>Photography</h2>
+
+  <ul class="contact-service-list">
+    <li>Portraits</li>
+    <li>Couples & Families</li>
+    <li>Senior Portraits</li>
+    <li>Professional Headshots</li>
+    <li>Events</li>
+    <li>Commercial</li>
+    <li>Real Estate</li>
+    <li>Passport Photos</li>
+  </ul>
+</div>
         </div>
 
         <div class="contact-service-group">
           <span class="contact-service-number">02</span>
 
-          <div class="contact-service-content">
-            <h2>Video</h2>
-            <p>
-              Documentary · Interviews · Events · Commercial ·
-              Music video
-            </p>
-          </div>
+<div class="contact-service-content">
+  <h2>Video</h2>
+
+  <ul class="contact-service-list">
+    <li>Documentary</li>
+    <li>Interviews</li>
+    <li>Events</li>
+    <li>Commercial</li>
+    <li>Music Videos</li>
+  </ul>
+</div>
         </div>
 
         <div class="contact-service-group">
           <span class="contact-service-number">03</span>
 
-          <div class="contact-service-content">
-            <h2>Content</h2>
-            <p>
-              Social media · University communications · Campaigns ·
-              Short-form photo and video
-            </p>
-          </div>
+<div class="contact-service-content">
+  <h2>Content</h2>
+
+  <ul class="contact-service-list">
+    <li>Social Media</li>
+    <li>University Communications</li>
+    <li>Brand Campaigns</li>
+    <li>Short-form Content</li>
+  </ul>
+</div>
         </div>
       </section>
 
