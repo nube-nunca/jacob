@@ -112,8 +112,11 @@ title: Contact
           ></textarea>
         </div>
 
-        <button type="submit" class="home-contact"> <span class="home-contact-text">Send inquiry</span> <span class="home-contact-arrow"></span> </button>
-
+        <button type="submit" class="contact-submit">
+          <span>Send inquiry</span>
+          <span aria-hidden="true">↗</span>
+        </button>
+        
       </form>
 
       <iframe
