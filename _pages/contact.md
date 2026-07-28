@@ -131,37 +131,49 @@ title: Contact
 
     <aside class="contact-info">
 
-      <section class="contact-info-block">
+      <section class="contact-info-block contact-services-block">
         <p class="contact-info-label">Services</p>
 
         <div class="contact-service-group">
-          <h2>Photography</h2>
-          <p>
-            Portraits · Senior portraits · Headshots · Events ·
-            Editorial · Commercial
-          </p>
+          <span class="contact-service-number">01</span>
+
+          <div class="contact-service-content">
+            <h2>Photography</h2>
+            <p>
+              Couples & Families · Seniors · Professional Headshots · Events · Real Estate · Commercial · Passport Photos
+            </p>
+          </div>
         </div>
 
         <div class="contact-service-group">
-          <h2>Video</h2>
-          <p>
-            Documentary · Interviews · Events · Commercial ·
-            Music video
-          </p>
+          <span class="contact-service-number">02</span>
+
+          <div class="contact-service-content">
+            <h2>Video</h2>
+            <p>
+              Documentary · Interviews · Events · Commercial ·
+              Music video
+            </p>
+          </div>
         </div>
 
         <div class="contact-service-group">
-          <h2>Content</h2>
-          <p>
-            Social media · University communications · Campaigns ·
-            Short-form photo and video
-          </p>
+          <span class="contact-service-number">03</span>
+
+          <div class="contact-service-content">
+            <h2>Content</h2>
+            <p>
+              Social media · University communications · Campaigns ·
+              Short-form photo and video
+            </p>
+          </div>
         </div>
       </section>
 
 
       <section class="contact-info-block">
         <p class="contact-info-label">Working with</p>
+
         <p class="contact-info-copy">
           Individuals · Families · Businesses · Universities ·
           Nonprofits · Organizations · Creative agencies
@@ -171,18 +183,10 @@ title: Contact
 
       <section class="contact-info-block">
         <p class="contact-info-label">Based in</p>
+
         <p class="contact-info-copy">
           Iowa City · Upstate New York<br>
           Available for travel and remote collaboration
-        </p>
-      </section>
-
-
-      <section class="contact-info-block">
-        <p class="contact-info-label">Pricing</p>
-        <p class="contact-info-copy">
-          Projects are quoted individually based on scope,
-          location, timeline, and deliverables.
         </p>
       </section>
 
