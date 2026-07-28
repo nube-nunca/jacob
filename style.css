@@ -72,7 +72,7 @@ footer {
 
 .contact-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(330px, 0.65fr);
+  grid-template-columns: minmax(0, 1.15fr) minmax(340px, 0.68fr);
   gap: clamp(4rem, 8vw, 9rem);
   align-items: start;
 }
@@ -250,7 +250,7 @@ footer {
   position: sticky;
   top: 7rem;
 
-  padding: clamp(1.5rem, 3vw, 2.25rem);
+  padding: clamp(1.6rem, 3vw, 2.35rem);
 
   background: rgba(127, 127, 127, 0.09);
   border: 1px solid rgba(127, 127, 127, 0.16);
@@ -260,8 +260,7 @@ footer {
 }
 
 .contact-info-block {
-  position: relative;
-  padding: 1.65rem 0 1.9rem;
+  padding: 1.75rem 0 2rem;
 }
 
 .contact-info-block:first-child {
@@ -272,14 +271,12 @@ footer {
   padding-bottom: 0.35rem;
 }
 
-/* Section dividers inside the gray panel */
-
 .contact-info-block + .contact-info-block {
   border-top: 1px solid rgba(127, 127, 127, 0.24);
 }
 
 .contact-info-label {
-  margin: 0 0 1.35rem;
+  margin: 0 0 1.4rem;
 
   font-family: "Barlow", sans-serif;
   font-size: 0.8rem;
@@ -291,52 +288,47 @@ footer {
 }
 
 
-/* Service menu rows */
+/* Numbered service rows */
 
 .contact-service-group {
-  position: relative;
-  padding-right: 2.6rem;
+  display: grid;
+  grid-template-columns: 2.25rem minmax(0, 1fr);
+  gap: 0.75rem;
+  align-items: start;
 }
 
 .contact-service-group + .contact-service-group {
-  margin-top: 1.55rem;
+  margin-top: 1.65rem;
 }
 
-.contact-service-group::before {
-  position: absolute;
-  top: 0.18rem;
-  left: 0;
+.contact-service-number {
+  padding-top: 0.25rem;
 
   font-family: "Barlow", sans-serif;
   font-size: 0.72rem;
   font-weight: 500;
+  line-height: 1;
   letter-spacing: 0.12em;
 
   opacity: 0.38;
 }
 
-.contact-service-group:nth-of-type(1)::before {
-  content: "01";
+.contact-service-content {
+  min-width: 0;
 }
 
-.contact-service-group:nth-of-type(2)::before {
-  content: "02";
-}
-
-.contact-service-group:nth-of-type(3)::before {
-  content: "03";
-}
-.contact-service-group h2 {
-  margin: 0 0 0.45rem;
+.contact-service-content h2 {
+  margin: 0 0 0.5rem;
 
   font-family: "Barlow", sans-serif;
-  font-size: clamp(1.45rem, 2vw, 1.8rem);
+  font-size: clamp(1.45rem, 2vw, 1.85rem);
   font-weight: 300;
   line-height: 1.15;
   letter-spacing: -0.02em;
 }
 
-.contact-service-group p {
+.contact-service-content p,
+.contact-info-copy {
   margin: 0;
 
   font-family: "Barlow", sans-serif;
@@ -348,7 +340,7 @@ footer {
 }
 
 
-/* Subtle response when hovering a section */
+/* Subtle panel interaction */
 
 .contact-info-block {
   transition:
@@ -364,7 +356,7 @@ footer {
 }
 
 
-/* Dark-mode adjustment */
+/* Dark mode */
 
 .dark .contact-info {
   background: rgba(255, 255, 255, 0.065);
@@ -378,6 +370,7 @@ footer {
 .dark .contact-info-block:hover {
   background-color: rgba(255, 255, 255, 0.045);
 }
+
 
 /* Contact responsive */
 
@@ -416,6 +409,15 @@ footer {
 
   .contact-submit {
     font-size: 1.8rem;
+  }
+
+  .contact-info {
+    padding: 1.4rem;
+  }
+
+  .contact-service-group {
+    grid-template-columns: 2rem minmax(0, 1fr);
+    gap: 0.6rem;
   }
 }
 
