@@ -108,9 +108,7 @@ title: Jacob Charles
       Let’s make something memorable.
     </span>
 
-    <span class="home-contact-arrow" aria-hidden="true">
-      ↗
-    </span>
+    <span class="home-contact-arrow" aria-hidden="true"></span>
   </a>
 
 </section>
