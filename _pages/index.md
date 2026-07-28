@@ -105,7 +105,7 @@ title: Jacob Charles
 
   <a href="{{ '/contact/' | relative_url }}" class="home-contact-link">
     <span class="home-contact-text">
-      Let’s make something memorable.
+      What do you have in mind?
     </span>
 
     <span class="home-contact-arrow" aria-hidden="true"></span>
