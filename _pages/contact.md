@@ -71,7 +71,7 @@ title: Contact
             type="text"
             id="subject"
             name="entry.579498837"
-            placeholder="service types on the right"
+            placeholder="e.g., senior portraits, documentary, social media..."
             required
           >
         </div>
