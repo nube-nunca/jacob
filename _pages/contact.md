@@ -6,34 +6,8 @@ title: Contact
 
 <section class="contact-page">
 
-<section class="contact-intro contact-intro-compact">
-  <div class="contact-intro-grid">
-
     <div>
       <p class="contact-kicker">Inquiries</p>
-
-      <h1>
-        What do you<br>
-        have in mind?
-      </h1>
-    </div>
-
-    <div class="contact-intro-aside">
-      <p>
-        Photography · Film · Editorial<br>
-        Commissioned Content
-      </p>
-
-      <p>
-        Based in Iowa City · Upstate New York<br>
-        Available worldwide
-      </p>
-
-    </div>
-
-  </div>
-</section>
-
 
   <div class="contact-layout">
 
