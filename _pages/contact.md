@@ -10,7 +10,7 @@ title: Contact
   <div class="contact-intro-grid">
 
     <div>
-      <p class="contact-kicker">Contact</p>
+      <p class="contact-kicker">Inquiries</p>
 
       <h1>
         What do you<br>
@@ -25,7 +25,7 @@ title: Contact
       </p>
 
       <p>
-        Iowa City · Upstate New York<br>
+        Iowa · New York<br>
         Available worldwide
       </p>
 
