@@ -48,37 +48,6 @@ footer {
   opacity: 0.5;
 }
 
-/* CONTACT INTRO — compact editorial layout */
-
-.contact-intro-compact {
-  padding: clamp(4rem, 7vw, 7rem) 0 clamp(3rem, 5vw, 5rem);
-  border-bottom: 1px solid rgba(127, 127, 127, 0.28);
-}
-
-.contact-intro-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1.45fr) minmax(280px, 0.55fr);
-  gap: clamp(3rem, 8vw, 9rem);
-  align-items: end;
-}
-
-.contact-intro-compact h1 {
-  margin: 0;
-
-  font-family: "Barlow", sans-serif;
-  font-size: clamp(3.8rem, 8.5vw, 8.5rem);
-  font-weight: 300;
-  line-height: 0.9;
-  letter-spacing: -0.055em;
-}
-
-@media (max-width: 850px) {
-  .contact-intro-grid {
-    grid-template-columns: 1fr;
-    gap: 2.5rem;
-  }
-}
-
 /* Contact layout */
 
 .contact-layout {
