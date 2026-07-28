@@ -4,4 +4,4 @@ title: Photography
 permalink: /photo/
 ---
 
-{% include gallery-grid.html type="" %}
+{% include gallery-grid.html %}
