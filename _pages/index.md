@@ -4,63 +4,44 @@ permalink: /
 title: Jacob Charles
 ---
 
-<section class="home-hero">
+<section class="home-hero home-hero-video">
 
-  <p class="home-kicker">
-    Photographer · Filmmaker · Content Creator
-  </p>
-
-  <h1>
-    Creating stories<br>
-    people remember.
-  </h1>
-
-  <div class="home-hero-details">
-    <p>
-      Photography · Film · Social Content
-    </p>
-
-    <p>
-      Based in Iowa City &amp; Upstate New York.<br>
-      Available worldwide.
-    </p>
-  </div>
-
-</section>
-
-
-<section class="home-reel">
-
-  <div class="home-reel-header">
-    <div>
-      <p class="home-section-number">01</p>
-      <h2>Selected Reel</h2>
-    </div>
-
-    <p>
-      A short selection of documentary, commercial,
-      and social-first moving-image work.
-    </p>
-  </div>
-
-  <div class="home-reel-frame">
-    <video
-      autoplay
-      muted
-      loop
-      playsinline
-      preload="metadata"
-      poster="{{ '/photoassets/featured/home-reel-poster.jpg' | relative_url }}"
+  <video
+    class="home-hero-background"
+    autoplay
+    muted
+    loop
+    playsinline
+    preload="metadata"
+    poster="{{ '/photoassets/featured/home-hero-poster.jpg' | relative_url }}"
+  >
+    <source
+      src="{{ '/photoassets/featured/home-hero-loop.mp4' | relative_url }}"
+      type="video/mp4"
     >
-      <source
-        src="{{ '/photoassets/featured/home-reel-loop.mp4' | relative_url }}"
-        type="video/mp4"
-      >
-    </video>
+  </video>
 
-    <div class="home-reel-label">
-      <span>Selected Reel</span>
-      <span>00:08 Loop</span>
+  <div class="home-hero-overlay"></div>
+
+  <div class="home-hero-content">
+    <p class="home-kicker">
+      Photographer · Filmmaker · Content Creator
+    </p>
+
+    <h1>
+      Creating stories<br>
+      people remember.
+    </h1>
+
+    <div class="home-hero-details">
+      <p>
+        Photography · Film · Social Content
+      </p>
+
+      <p>
+        Based in Iowa City &amp; Upstate New York.<br>
+        Available worldwide.
+      </p>
     </div>
   </div>
 
@@ -70,7 +51,7 @@ title: Jacob Charles
 <section class="home-work">
 
   <a href="{{ '/photo/' | relative_url }}" class="home-work-item">
-    <p class="home-section-number">02</p>
+    <p class="home-section-number">01</p>
 
     <div class="home-work-title">
       <h2>Photo</h2>
@@ -85,7 +66,7 @@ title: Jacob Charles
 
 
   <a href="{{ '/video/' | relative_url }}" class="home-work-item">
-    <p class="home-section-number">03</p>
+    <p class="home-section-number">02</p>
 
     <div class="home-work-title">
       <h2>Video</h2>
@@ -100,7 +81,7 @@ title: Jacob Charles
 
 
   <a href="{{ '/content/' | relative_url }}" class="home-work-item">
-    <p class="home-section-number">04</p>
+    <p class="home-section-number">03</p>
 
     <div class="home-work-title">
       <h2>Content</h2>
@@ -122,8 +103,14 @@ title: Jacob Charles
     Available for commissions and collaborations
   </p>
 
-  <a href="{{ '/contact/' | relative_url }}">
-    Let’s make something memorable.
+  <a href="{{ '/contact/' | relative_url }}" class="home-contact-link">
+    <span class="home-contact-text">
+      Let’s make something memorable.
+    </span>
+
+    <span class="home-contact-arrow" aria-hidden="true">
+      ↗
+    </span>
   </a>
 
 </section>
