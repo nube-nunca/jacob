@@ -5,10 +5,11 @@ footer {
 }
 
 html {
+  min-height: 100%;
+  margin: 0;
   scrollbar-gutter: stable;
 }
 
-html,
 body {
   min-height: 100%;
   margin: 0;
