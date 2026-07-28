@@ -342,19 +342,36 @@ footer {
 
 /* Subtle panel interaction */
 
-.contact-info-block {
-  transition:
-    padding-left 400ms cubic-bezier(0.22, 1, 0.36, 1),
-    padding-right 400ms cubic-bezier(0.22, 1, 0.36, 1),
-    background-color 250ms ease;
+.contact-info-block{
+    transition: background-color .25s ease;
 }
 
-.contact-info-block:hover {
-  padding-left: 0.65rem;
-  padding-right: 0.65rem;
-  background-color: rgba(127, 127, 127, 0.055);
+.contact-service-content h2,
+.contact-service-content p,
+.contact-info-copy,
+.contact-service-number{
+    transition:
+        opacity .25s ease,
+        transform .35s cubic-bezier(.22,1,.36,1);
 }
 
+.contact-info-block:hover{
+    background:rgba(127,127,127,.05);
+}
+
+.contact-info-block:hover .contact-service-content h2{
+    opacity:1;
+    transform:scale(1.015);
+}
+
+.contact-info-block:hover .contact-service-content p,
+.contact-info-block:hover .contact-info-copy{
+    opacity:.9;
+}
+
+.contact-info-block:hover .contact-service-number{
+    opacity:.65;
+}
 
 /* Dark mode */
 
