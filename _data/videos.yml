@@ -1,0 +1,22 @@
+- title: "Project One"
+  category: documentary
+  type: local
+  src: /videoassets/project-one.mp4
+  poster: /videoassets/project-one-poster.jpg
+  role: Director · Cinematographer · Editor
+  description: A short documentary about...
+
+- title: "Artist — Song Title"
+  category: music-video
+  type: local
+  src: /videoassets/artist-video.mp4
+  poster: /videoassets/artist-video-poster.jpg
+  role: Director of Photography
+  description: A performance-driven music video...
+
+- title: "PBS Feature"
+  category: documentary
+  type: embed
+  embed_url: https://player.pbs.org/viralplayer/3077805159/
+  role: Cinematographer
+  description: A broadcast feature produced for public television.
