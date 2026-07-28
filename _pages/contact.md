@@ -8,7 +8,7 @@ title: Contact
 
   <div class="contact-page-heading">
     <p class="contact-kicker">Inquiries</p>
-    <h1>Tell me about your project.</h1>
+    <h1>Ready when you are.</h1>
   </div>
 
   <div class="contact-layout">
