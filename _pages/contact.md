@@ -9,59 +9,118 @@ title: Contact
       <section class="col-span-2 md:col-span-1">
         <div class="max-w-screen-md">
           <h1 class="text-3xl pt-10 pb-8 font-barlow font-light"><b>let's connect</b></h1>        
-          <form class="space-y-8" name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/MYSURVEYID/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
-           <label for="name" class="block mb-2 text-x1 font-barlow font-bold text-gray-900 dark:text-gray-300">Your Name</label>
-           <div class="flex gap-4">   
-             <input type="text" id="entry.**number**" name="entry.**number**"
-                   class="w-1/2 p-2.5 shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 dark:bg-neutral-900 dark:border-neutral-800 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-                   placeholder="First name" required />
-               <input type="text" id="entry.**number**" name="entry.**number**"
-                   class="w-1/2 p-2.5 shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 dark:bg-neutral-900 dark:border-neutral-800 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-                   placeholder="Last name" required />
-           </div>
-            <div>
-              <label for="email" class="block mb-2 font-barlow font-bold text-gray-900 dark:text-gray-300">Your
-                email</label>
-              <input type="email" id="entry.**number**" name="entry.**number**"
-                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-neutral-900 dark:border-neutral-800 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-                placeholder="youremail@gmail.com" required />
-            </div>
-            <div>
-              <label for="subject"
-                class="block mb-2 font-barlow font-bold text-gray-900 dark:text-gray-300">Subject</label>
-              <input type="text" id="entry.**number**" name="entry.**number**"
-                class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-neutral-900 dark:border-neutral-800 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-                placeholder="What can I help you with?" required />
-            </div>
-            <div>
-              <label for="date"
-                class="block mb-2 font-barlow font-bold text-gray-900 dark:text-gray-300">Event Date</label>
-              <input type="text" id="entry.**number**" name="entry.**number**"
-                class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-neutral-900 dark:border-neutral-800 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-                placeholder="" required />
-            </div>
-            <div>
-              <label for="venue"
-                class="block mb-2 font-barlow font-bold text-gray-900 dark:text-gray-300">Venue / Location</label>
-              <input type="text" id="entry.**number**" name="entry.**number**"
-                class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-neutral-900 dark:border-neutral-800 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-                placeholder="" required />
-            </div>
-            <div class="sm:col-span-2">
-              <label for="message" class="block mb-2 font-barlow font-bold text-gray-900 dark:text-gray-400">Your
-                message</label>
-              <textarea id="entry.**number**" name="entry.**number**" rows="6"
-                class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-neutral-900 dark:border-neutral-800 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                placeholder="Do you want to add more details?" required></textarea>
-            </div>
-            <button type="submit"
-              class="rounded-lg sm:inline-flex w-full cursor-pointer justify-center rounded-md border border-transparent bg-gray-100 px-4 py-2 text-base font-medium text-gray-900 shadow-sm hover:bg-gray-900 hover:text-white focus:bg-gray-900 focus:text-white focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 sm:ml-3 sm:w-auto"><b>
-              Send now</b>
-            </button>
-            <div id="formSubmissionText" class="hidden form-submission-text">
-    <p>Please allow up to 1 Business Day for a reply. Thank you very much!</p>
+
+<form
+  class="space-y-8"
+  name="gform"
+  id="gform"
+  method="POST"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSdZ7-C23kYCopL0N3l88v7k3ixYfp9H8GO4cQNvMw8jfrn9zg/formResponse"
+  target="hidden_iframe"
+  onsubmit="submitted=true;">
+
+  <label for="firstname" class="block mb-2 text-x1 font-barlow font-bold text-gray-900 dark:text-gray-300">
+    Your Name
+  </label>
+
+  <div class="flex gap-4">
+    <input
+      type="text"
+      id="firstname"
+      name="entry.625646384"
+      class="w-1/2 p-2.5 shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 dark:bg-neutral-900 dark:border-neutral-800 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+      placeholder="First name"
+      required />
+
+    <input
+      type="text"
+      id="lastname"
+      name="entry.1744308571"
+      class="w-1/2 p-2.5 shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 dark:bg-neutral-900 dark:border-neutral-800 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+      placeholder="Last name"
+      required />
   </div>
+
+  <div>
+    <label for="email" class="block mb-2 font-barlow font-bold text-gray-900 dark:text-gray-300">
+      Your email
+    </label>
+
+    <input
+      type="email"
+      id="email"
+      name="entry.362250930"
+      class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-neutral-900 dark:border-neutral-800 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+      placeholder="youremail@gmail.com"
+      required />
+  </div>
+
+  <div>
+    <label for="subject" class="block mb-2 font-barlow font-bold text-gray-900 dark:text-gray-300">
+      Subject
+    </label>
+
+    <input
+      type="text"
+      id="subject"
+      name="entry.579498837"
+      class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-neutral-900 dark:border-neutral-800 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+      placeholder="What can I help you with?"
+      required />
+  </div>
+
+  <div>
+    <label for="eventdate" class="block mb-2 font-barlow font-bold text-gray-900 dark:text-gray-300">
+      Event Date
+    </label>
+
+    <input
+      type="text"
+      id="eventdate"
+      name="entry.1245624429"
+      class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-neutral-900 dark:border-neutral-800 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+      placeholder="" />
+  </div>
+
+  <div>
+    <label for="location" class="block mb-2 font-barlow font-bold text-gray-900 dark:text-gray-300">
+      Venue / Location
+    </label>
+
+    <input
+      type="text"
+      id="location"
+      name="entry.18748500"
+      class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-neutral-900 dark:border-neutral-800 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+      placeholder="" />
+  </div>
+
+  <div class="sm:col-span-2">
+    <label for="message" class="block mb-2 font-barlow font-bold text-gray-900 dark:text-gray-400">
+      Your message
+    </label>
+
+    <textarea
+      id="message"
+      name="entry.709681169"
+      rows="6"
+      class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-neutral-900 dark:border-neutral-800 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+      placeholder="Do you want to add more details?"
+      required></textarea>
+  </div>
+
+  <button
+    type="submit"
+    class="rounded-lg sm:inline-flex w-full cursor-pointer justify-center rounded-md border border-transparent bg-gray-100 px-4 py-2 text-base font-medium text-gray-900 shadow-sm hover:bg-gray-900 hover:text-white focus:bg-gray-900 focus:text-white focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 sm:ml-3 sm:w-auto">
+    <b>Send now</b>
+  </button>
+
+  <div id="formSubmissionText" class="hidden form-submission-text">
+    <p>Please allow up to 2 Business Days for a reply. Thank you very much!</p>
+  </div>
+
 </form>
+ 
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script> <!-- stopping Google Form redirection: original URL: assets/js/jquery.min.js-->
 <script type="text/javascript">var submitted=false;</script>
