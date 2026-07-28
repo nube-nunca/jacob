@@ -6,27 +6,10 @@ title: Contact
 
 <section class="contact-page">
 
-  <div class="contact-intro">
-    <p class="contact-kicker">Get in touch</p>
-
-    <h1>
-      Let’s make<br>
-      something memorable.
-    </h1>
-
-    <div class="contact-intro-meta">
-      <p>
-        Available for photography, film,
-        editorial, and commissioned content.
-      </p>
-
-      <p>
-        Based in Iowa City &amp; Upstate New York.<br>
-        Available worldwide.
-      </p>
-    </div>
+  <div class="contact-page-heading">
+    <p class="contact-kicker">Inquiries</p>
+    <h1>Tell me about your project.</h1>
   </div>
-
 
   <div class="contact-layout">
 
@@ -39,17 +22,21 @@ title: Contact
         method="POST"
         action="https://docs.google.com/forms/d/e/1FAIpQLSdZ7-C23kYCopL0N3l88v7k3ixYfp9H8GO4cQNvMw8jfrn9zg/formResponse"
         target="hidden_iframe"
-        onsubmit="submitted=true;">
+        onsubmit="submitted = true;"
+      >
 
         <div class="contact-name-row">
+
           <div class="contact-field">
             <label for="firstname">First name</label>
             <input
               type="text"
               id="firstname"
               name="entry.625646384"
-              placeholder="Jacob"
-              required>
+              placeholder="First name"
+              autocomplete="given-name"
+              required
+            >
           </div>
 
           <div class="contact-field">
@@ -58,9 +45,12 @@ title: Contact
               type="text"
               id="lastname"
               name="entry.1744308571"
-              placeholder="Charles"
-              required>
+              placeholder="Last name"
+              autocomplete="family-name"
+              required
+            >
           </div>
+
         </div>
 
         <div class="contact-field">
@@ -70,7 +60,9 @@ title: Contact
             id="email"
             name="entry.362250930"
             placeholder="you@example.com"
-            required>
+            autocomplete="email"
+            required
+          >
         </div>
 
         <div class="contact-field">
@@ -79,18 +71,21 @@ title: Contact
             type="text"
             id="subject"
             name="entry.579498837"
-            placeholder="Documentary, portrait, campaign, event..."
-            required>
+            placeholder="Portrait, event, documentary, video, campaign..."
+            required
+          >
         </div>
 
         <div class="contact-form-split">
+
           <div class="contact-field">
             <label for="eventdate">Project date</label>
             <input
               type="text"
               id="eventdate"
               name="entry.1245624429"
-              placeholder="Optional">
+              placeholder="Optional"
+            >
           </div>
 
           <div class="contact-field">
@@ -99,8 +94,11 @@ title: Contact
               type="text"
               id="location"
               name="entry.18748500"
-              placeholder="Optional">
+              placeholder="Optional"
+              autocomplete="address-level2"
+            >
           </div>
+
         </div>
 
         <div class="contact-field">
@@ -108,9 +106,10 @@ title: Contact
           <textarea
             id="message"
             name="entry.709681169"
-            rows="3"
+            rows="4"
             placeholder="Scope, timeline, deliverables, and anything else worth knowing."
-            required></textarea>
+            required
+          ></textarea>
         </div>
 
         <button type="submit" class="contact-submit">
@@ -118,34 +117,74 @@ title: Contact
           <span aria-hidden="true">↗</span>
         </button>
 
-        <div id="formSubmissionText" class="hidden form-submission-text">
-          <p>Please allow up to 2 business days for a reply. Thank you.</p>
-        </div>
-
       </form>
 
       <iframe
         name="hidden_iframe"
         id="hidden_iframe"
-        style="display:none;"
-        onload="if(submitted) {}">
-      </iframe>
+        title="Hidden form submission target"
+        style="display: none;"
+      ></iframe>
 
     </section>
 
 
-    <aside class="contact-visual">
+    <aside class="contact-info">
 
-      <div class="contact-image-frame">
-        <img
-          src="{{ '/photoassets/featured/contact-cover.jpg' | relative_url }}"
-          alt="Selected photography by Jacob Charles">
-      </div>
+      <section class="contact-info-block">
+        <p class="contact-info-label">Services</p>
 
-      <div class="contact-visual-caption">
-        <span>Iowa City · Upstate New York</span>
-        <span>Available worldwide</span>
-      </div>
+        <div class="contact-service-group">
+          <h2>Photography</h2>
+          <p>
+            Portraits · Senior portraits · Headshots · Events ·
+            Editorial · Commercial
+          </p>
+        </div>
+
+        <div class="contact-service-group">
+          <h2>Video</h2>
+          <p>
+            Documentary · Interviews · Events · Commercial ·
+            Music video
+          </p>
+        </div>
+
+        <div class="contact-service-group">
+          <h2>Content</h2>
+          <p>
+            Social media · University communications · Campaigns ·
+            Short-form photo and video
+          </p>
+        </div>
+      </section>
+
+
+      <section class="contact-info-block">
+        <p class="contact-info-label">Working with</p>
+        <p class="contact-info-copy">
+          Individuals · Families · Businesses · Universities ·
+          Nonprofits · Organizations · Creative agencies
+        </p>
+      </section>
+
+
+      <section class="contact-info-block">
+        <p class="contact-info-label">Based in</p>
+        <p class="contact-info-copy">
+          Iowa City · Upstate New York<br>
+          Available for travel and remote collaboration
+        </p>
+      </section>
+
+
+      <section class="contact-info-block">
+        <p class="contact-info-label">Pricing</p>
+        <p class="contact-info-copy">
+          Projects are quoted individually based on scope,
+          location, timeline, and deliverables.
+        </p>
+      </section>
 
     </aside>
 
@@ -155,14 +194,22 @@ title: Contact
 
 
 <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
-<script>var submitted = false;</script>
 
 <script>
-  $('#gform').on('submit', function () {
-    $('#gform').fadeOut(500, function () {
-      $(this)
-        .html('<p class="contact-success">Sent. Please allow up to 2 business days for a reply.</p>')
-        .fadeIn(500);
+  let submitted = false;
+
+  $("#gform").on("submit", function () {
+    const $form = $(this);
+
+    $form.fadeOut(450, function () {
+      $form
+        .html(
+          '<div class="contact-success">' +
+            '<p class="contact-success-heading">Inquiry sent.</p>' +
+            '<p>Please allow up to 2 business days for a reply. Thank you.</p>' +
+          '</div>'
+        )
+        .fadeIn(450);
     });
   });
 </script>
