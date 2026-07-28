@@ -33,15 +33,19 @@ footer {
 /* CONTACT PAGE */
 
 .contact-page {
-  padding-top: clamp(4rem, 7vw, 7rem);
   padding-bottom: clamp(5rem, 10vw, 10rem);
+}
+
+.contact-intro {
+  padding: clamp(4rem, 8vw, 8rem) 0 clamp(4rem, 7vw, 7rem);
+  border-bottom: 1px solid rgba(127, 127, 127, 0.28);
 }
 
 .contact-kicker {
   margin: 0 0 1.5rem;
 
   font-family: "Barlow", sans-serif;
-  font-size: 0.95rem;
+  font-size: 0.55rem;
   font-weight: 500;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -49,24 +53,41 @@ footer {
   opacity: 0.5;
 }
 
-.contact-form-heading {
-  margin-bottom: clamp(3rem, 5vw, 5rem);
-}
-
-.contact-form-heading .contact-kicker {
-  margin: 0 0 1rem;
-}
-
-.contact-form-heading h1 {
-  max-width: 700px;
+.contact-intro h1 {
+  max-width: 1200px;
   margin: 0;
 
   font-family: "Barlow", sans-serif;
-  font-size: clamp(2.8rem, 5vw, 5.5rem);
+  font-size: clamp(3.5rem, 9vw, 9rem);
   font-weight: 300;
-  line-height: 0.95;
-  letter-spacing: -0.04em;
+  line-height: 0.9;
+  letter-spacing: -0.055em;
 }
+
+.contact-intro-meta {
+  margin-top: clamp(3rem, 7vw, 6rem);
+
+  display: grid;
+  grid-template-columns: minmax(260px, 560px) auto;
+  gap: 3rem;
+  align-items: end;
+}
+
+.contact-intro-meta p {
+  margin: 0;
+
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.6;
+
+  opacity: 0.68;
+}
+
+.contact-intro-meta p:last-child {
+  text-align: right;
+}
+
 
 /* Contact layout */
 
@@ -255,6 +276,20 @@ footer {
 
   opacity: 0.45;
 }
+
+
+/* Contact responsive */
+
+@media (max-width: 900px) {
+  .contact-intro-meta {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .contact-intro-meta p:last-child {
+    text-align: left;
+  }
+
   .contact-layout {
     grid-template-columns: 1fr;
   }
@@ -275,11 +310,16 @@ footer {
     grid-template-columns: 1fr;
   }
 
+  .contact-intro h1 {
+    line-height: 0.96;
+  }
+
   .contact-visual-caption {
     flex-direction: column;
     gap: 0.35rem;
   }
 }
+
 
 /* Masonry photo grid */
 
