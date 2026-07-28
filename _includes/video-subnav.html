@@ -1,0 +1,59 @@
+<ul class="flex flex-row flex-wrap justify-center items-center text-center gap-x-5 gap-y-2">
+
+    <li class="group transition duration-300">
+    <a href="{{ site.baseurl }}/video"
+       class="text-xl sm:text-xl md:text-2xl font-barlow font-normal tap-highlight-transparent relative
+       {% if page.url == '/video/' %}
+         after:absolute after:left-0 after:bottom-0 after:w-full after:h-0.5 after:bg-black dark:after:bg-white
+       {% else %}
+         after:absolute after:left-0 after:bottom-0 after:w-0 group-hover:after:w-full after:h-0.5 after:bg-black dark:after:bg-white after:transition-all after:duration-500
+       {% endif %}">
+      All
+      <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black dark:bg-white"></span>
+    </a>
+  </li>
+  
+  <li class="group transition duration-300">
+    <a href="{{ site.baseurl }}/video/documentary"
+       class="text-xl sm:text-xl md:text-2xl font-barlow font-normal tap-highlight-transparent relative
+       {% if page.url == '/video/documentary/' %}
+         after:absolute after:left-0 after:bottom-0 after:w-full after:h-0.5 after:bg-black dark:after:bg-white
+       {% else %}
+         after:absolute after:left-0 after:bottom-0 after:w-0 group-hover:after:w-full after:h-0.5 after:bg-black dark:after:bg-white after:transition-all after:duration-500
+       {% endif %}">
+      Documentary
+      <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black dark:bg-white"></span>
+    </a>
+  </li>
+
+  <li class="text-xl sm:text-xl md:text-2xl font-barlow font-normal select-none">|</li>
+
+  <li class="group transition duration-300">
+    <a href="{{ site.baseurl }}/video/musicvideo"
+       class="text-xl sm:text-xl md:text-2xl font-barlow font-normal tap-highlight-transparent relative
+       {% if page.url == '/photo/musicvideo/' %}
+         after:absolute after:left-0 after:bottom-0 after:w-full after:h-0.5 after:bg-black dark:after:bg-white
+       {% else %}
+         after:absolute after:left-0 after:bottom-0 after:w-0 group-hover:after:w-full after:h-0.5 after:bg-black dark:after:bg-white after:transition-all after:duration-500
+       {% endif %}">
+      Music Video
+      <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black dark:bg-white"></span>
+    </a>
+  </li>
+
+  <li class="text-xl sm:text-xl md:text-2xl font-barlow font-normal select-none">|</li>
+
+  <li class="group transition duration-300">
+    <a href="{{ site.baseurl }}/video/film"
+       class="text-xl sm:text-xl md:text-2xl font-barlow font-normal tap-highlight-transparent relative
+       {% if page.url == '/video/film/' %}
+         after:absolute after:left-0 after:bottom-0 after:w-full after:h-0.5 after:bg-black dark:after:bg-white
+       {% else %}
+         after:absolute after:left-0 after:bottom-0 after:w-0 group-hover:after:w-full after:h-0.5 after:bg-black dark:after:bg-white after:transition-all after:duration-500
+       {% endif %}">
+      Film
+      <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black dark:bg-white"></span>
+    </a>
+  </li>
+
+</ul>
