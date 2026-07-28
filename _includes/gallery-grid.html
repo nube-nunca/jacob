@@ -22,7 +22,7 @@
 
             {% if ext == '.mp4' or ext == '.mov' or ext == '.webm' %}
               <!-- 🎥 LOCAL VIDEO ELEMENT: Set to autoplay, loop, and mute safely -->
-              <div class="block w-full rounded-lg overflow-hidden transition-transform duration-300 ease-in-out hover:scale-105">
+              <div class="block w-full rounded-sm overflow-hidden transition-transform duration-300 ease-in-out hover:scale-105">
                 <video
                   class="masonry-video block w-full h-auto"
                   autoplay
@@ -45,7 +45,7 @@
                   src="{{ file.path | relative_url }}"
                   alt="{{ include.type | default: 'Photo' | capitalize }} Portfolio item"
                   loading="lazy"
-                  class="block w-full rounded-lg transition-transform duration-300 ease-in-out hover:scale-105"
+                  class="block w-full rounded-sm transition-transform duration-300 ease-in-out hover:scale-105"
                 /> 
               </a> 
             {% endif %}
